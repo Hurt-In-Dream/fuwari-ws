@@ -1,5 +1,22 @@
 @tailwind components;
 
+/* Global background image */
+html {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url('https://eopfapi.2b2x.cn/pic?img=ua') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    background: transparent !important;
+}
+
 @layer components {
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
@@ -116,6 +133,46 @@
     @apply cursor-zoom-in
 }
 
+/* 大容器组件半透明效果 */
+/* 导航栏 */
+#navbar {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border-bottom-left-radius: var(--radius-large) !important;
+    border-bottom-right-radius: var(--radius-large) !important;
+}
+:root.dark #navbar {
+    background: transparent !important;
+}
+
+/* TOC 容器 */
+#toc-wrapper {
+    background: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(20px) saturate(180%);
+    border-radius: var(--radius-large);
+}
+:root.dark #toc-wrapper {
+    background: rgba(0, 0, 0, 0.70) !important;
+}
+
+/* 指定组件的半透明效果 */
+.card-base.p-3,
+.card-base.pb-4,
+.card-base.post-card,
+#navbar .card-base,
+#post-container {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: var(--radius-large);
+}
+:root.dark .card-base.p-3,
+:root.dark .card-base.pb-4,
+:root.dark .card-base.post-card,
+:root.dark #navbar .card-base,
+:root.dark #post-container {
+    background: rgba(0, 0, 0, 0.65) !important;
+}
+
 ::selection {
     background-color: var(--selection-bg)
 }
@@ -149,4 +206,55 @@
         color: var(--codeblock-bg);
     }
   }
+}
+
+/* 全局自定义鼠标指针 */
+/* 全局默认鼠标指针 */
+body,
+html {
+    cursor: url('/mouse/default.cur'), auto !important;
+}
+
+/* 悬停图片时的鼠标指针 */
+img { 
+    cursor: url('/mouse/image.cur'), auto !important;
+}
+
+/* 悬停链接标签时的鼠标指针 */
+a:hover {
+    cursor: url('/mouse/link.cur'), auto !important;
+}
+
+/* 选中输入框时的鼠标指针 */
+input:hover, 
+textarea:hover {
+    cursor: url('/mouse/text.cur'), auto !important;
+}
+
+/* 悬停按钮时的鼠标指针 */
+button:hover {
+    cursor: url('/mouse/button.cur'), auto !important;
+}
+
+/* 悬停代码块相关按钮时的鼠标指针 */
+.copy-button:hover,
+.expand:hover {
+    cursor: url('/mouse/button.cur'), auto !important;
+}
+
+/* 悬停非链接文本时的鼠标指针 */
+h1, h2, h3, h4, h5, h6,
+p, li, span, div {
+    cursor: url('/mouse/default.cur'), auto !important;
+}
+
+/* 悬停导航栏时的鼠标指针 */
+#navbar a:hover,
+#navbar button:hover {
+    cursor: url('/mouse/link.cur'), auto !important;
+}
+
+/* 悬停滚动条的鼠标指针（只对Chrome有效） */
+::-webkit-scrollbar:hover {
+    cursor: url('/mouse/default.cur'), auto !important;
 }
