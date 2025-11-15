@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "1bfacc4aff3bdb93",
+    "id": "a2805624a0931433",
     "type": "split",
     "children": [
       {
-        "id": "046805cbfe96f6de",
+        "id": "6d725730dfcf5bc3",
         "type": "tabs",
         "children": [
           {
-            "id": "0b88a7f2bb32889c",
+            "id": "da255ba8467e873f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft.md",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "about"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "16ce8268c2a75ab4",
+    "id": "733ec76f6395e41c",
     "type": "split",
     "children": [
       {
-        "id": "60259e3133c56044",
+        "id": "8c0641bc3061ee0d",
         "type": "tabs",
         "children": [
           {
-            "id": "edeb89c20970f91b",
+            "id": "78c9767cfdfe9d8d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "342974842cb4cced",
+            "id": "9b6dc095bfbfc548",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "33a622ee4f079fb8",
+            "id": "fe3bb98e5b208edc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "87d5bbf5e38e1b44",
+    "id": "12e9292f21afa6ae",
     "type": "split",
     "children": [
       {
-        "id": "3709075d52a4cff3",
+        "id": "6efd3c165a03fbf6",
         "type": "tabs",
         "children": [
           {
-            "id": "14035f553a476dae",
+            "id": "e8120d6d10647dda",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "about 的反向链接列表"
             }
           },
           {
-            "id": "bf086d42b7dafc8e",
+            "id": "cb77e2e182a7ad46",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "about 的出链列表"
             }
           },
           {
-            "id": "1013df67bca45219",
+            "id": "a21b3908dfa18eb0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +137,7 @@
             }
           },
           {
-            "id": "062ba9a73d60bce1",
+            "id": "5acb348706e39068",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,17 +151,18 @@
             }
           },
           {
-            "id": "7f04bc94448e9f52",
+            "id": "d849f44aca7126e8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "about 的大纲"
             }
           }
         ]
@@ -180,15 +183,6 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "edeb89c20970f91b",
-  "lastOpenFiles": [
-    "draft.md",
-    "未命名.md",
-    "guide/index.md",
-    "guide/cover.jpeg",
-    "markdown.md",
-    "markdown-extended.md",
-    "video.md",
-    "expressive-code.md"
-  ]
+  "active": "da255ba8467e873f",
+  "lastOpenFiles": []
 }
