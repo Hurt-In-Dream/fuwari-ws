@@ -1,9 +1,5 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
-
+# 关于
+这是本人基于 [Fuwari](https://github.com/saicaca/fuwari)及[二叉树树](https://blog.2b2x.cn/)魔改后的个人博客
+项目链接：
 ::github{repo="Hurt-In-Dream/fuwari-ws"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
